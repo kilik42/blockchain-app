@@ -6,15 +6,16 @@ class Block{
     this.data = data;
   }
 
-
 }
 
-const block1 = new Block(
-  {
-    timestamp:'01',
-    lastHash:'foo-lastHash',
-    hash:'foo-hash',
-    data:'foo-data'
-});
+module.exports = Block;
 
-console.log('block1', block1);
+// const block1 = new Block(
+//   {
+//     timestamp:'01',
+//     lastHash:'foo-lastHash',
+//     hash:'foo-hash',
+//     data:'foo-data'
+// });
+//
+// console.log('block1', block1);

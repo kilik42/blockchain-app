@@ -11,10 +11,10 @@ class Block{
 
 const block1 = new Block(
   {
-    '01',
-    'foo-lastHash',
-    'foo-hash',
-    'foo-data'
+    timestamp:'01',
+    lastHash:'foo-lastHash',
+    hash:'foo-hash',
+    data:'foo-data'
 });
 
 console.log('block1', block1);
